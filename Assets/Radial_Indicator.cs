@@ -6,6 +6,10 @@ using UnityEngine.Events;
 
 public class Radial_Indicator : MonoBehaviour
 {
+
+    // This is a demo for a radial bar used for drinking a liquid
+    // Ref: https://www.youtube.com/watch?v=5xWDKJj1UGY
+
     [Header("Radial Timers")]
     [SerializeField] private float indicatorTimer = 1.0f;
     [SerializeField] private float maxIndicatorTimer = 1.0f;
